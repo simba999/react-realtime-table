@@ -9,11 +9,11 @@ module.exports = {
     inline: true,
     progress: true,
     contentBase: './app',
-    port: 8080
+    port: 8000
   },
   entry: [
     'webpack/hot/dev-server',
-    'webpack-dev-server/client?http://localhost:8080',
+    'webpack-dev-server/client?http://localhost:8000',
     path.resolve(__dirname, 'app/main.jsx')
   ],
   output: {

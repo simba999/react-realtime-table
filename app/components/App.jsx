@@ -1,19 +1,24 @@
 import React from 'react';
+import CustomTable from './customtable';
 
 require('./App.css');
 
-export default () => <h1>Hello World</h1>;
-
-/*
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+	constructor() {
+		super();
 
-  render() {
-    return (
-      <h1>Hello World</h1>
-    );
-  }
+		numberType: []
+	}
+
+	componentDidMount() {
+
+	}
+
+	render() {
+		return (
+			<section>
+				<CustomTable />
+			</section>
+		);
+	}
 }
-*/
